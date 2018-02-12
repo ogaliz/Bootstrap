@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap4 Udemy</title>
+</head>
+
+<style>
+    body,
+    html {
+        height: 100%;
+    }
+
+    section:nth-child(even) {
+        background-color: #ddd;
+    }
+
+    .section {
+        width: 100%;
+        min-height: 100%;
+        padding-top: 75px;
+    }
+
+</style>
+
+<body>
+    <!-- Las clases que hemos añadido hacen referencia al color del navbar y al background-color, la clase expand nos pone un menu hamburguesa si la pantalla baja del tamaño medio, sino los items se muestran en pantalla -->
+    <nav id="myNav" class="navbar navbar-dark bg-dark fixed-top navbar-expand-sm">
+        <!--   Esto se encuentra fuera del area de collapse, por tanto no se esconde nunca   -->
+        <a class="navbar-brand" href="#">Oscar G</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarMain">
+       <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navBarMain">
+            <ul class="navbar-nav">
+                <li nav-item><a href="#about" class="nav-link">About</a></li>
+                <li nav-item><a href="#info" class="nav-link">info</a></li>
+                <li nav-item><a href="#products" class="nav-link">Products</a></li>
+                <li nav-item><a href="#contact" class="nav-link">contact</a></li>
+            </ul>
+            <span class="navbar-text">Texto adicional</span>
+        </div>
+    </nav>
+    <!---------------AQUI EMPIEZAN LAS SECCIONES------------------------------>
+    <section class="jumbotron section">
+        <div class="center">
+            <div class="container text-sm-center">
+                <!--               Esta clase es el tamaño del texto -->
+                <div class="display-1">My Company</div>
+                <div class="m-3">Hola a todosss probando Bootstrap!!!</div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section bg-success text-light">
+        <div class="container">
+            <div class="display-3">About</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia obcaecati odio, corporis in aliquid quas labore inventore? Accusamus alias, velit expedita sapiente sed doloremque tempore nesciunt, explicabo enim possimus perferendis, ex dolore praesentium officia mollitia. Ducimus quae ab est corporis aut. Placeat cumque expedita at repudiandae dolores maxime eos est ducimus molestias dicta voluptatem, aliquid itaque doloribus qui atque quos ipsum distinctio cum ad totam quae sed unde debitis quidem.</p>
+        </div>
+    </section>
+
+    <section id="info" class="section">
+        <div class="container">
+            <div class="display-3">Buttons</div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-light">Light</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
+                    <button type="button" class="btn btn-link">Link</button>
+                </div>
+                <div class="col"><a class="btn btn-primary" href="#" role="button">Link</a>
+                    <button class="btn btn-primary" type="submit">Button</button>
+                    <input class="btn btn-primary" type="button" value="Input">
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-primary" type="reset" value="Reset">
+                </div>
+            </div>
+    </section>
+    <section id="products" class="section">
+        <div class="display-3">Products</div>
+    </section>
+    <section id="contact" class="section">
+        <div class="display-3">Contact</div>
+    </section>
+    <footer>
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
